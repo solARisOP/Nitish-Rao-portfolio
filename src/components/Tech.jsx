@@ -1,15 +1,27 @@
-import { RiReactjsLine } from "react-icons/ri"
-import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di"
-import { FaNodeJs } from "react-icons/fa"
-import { SiExpress } from "react-icons/si";
-import { SiDjango } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
-import { SiCplusplus } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { 
+    RiReactjsLine,
+    RiTailwindCssFill
+ } from "react-icons/ri"
+import { 
+    SiMongodb,
+    SiExpress,
+    SiDjango,
+    SiJavascript,
+    SiCplusplus,
+    SiGithub,
+    SiPostman
+ } from "react-icons/si"
+import { 
+    FaNodeJs,
+    FaPython,
+    FaDocker
+ } from "react-icons/fa" 
+ import { DiRedis } from "react-icons/di"
 import { GrMysql } from "react-icons/gr";
+import { FaGitAlt } from "react-icons/fa6";
+import { VscVscode } from "react-icons/vsc";
+import { MdHttp } from "react-icons/md";
+
 import { motion } from 'framer-motion'
 
 const iconVariants = (duration) => ({
@@ -65,56 +77,91 @@ function Tech() {
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiExpress className="text-7xl"/>
+                <SiExpress className="text-7xl text-white"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(5)}
+            variants={iconVariants(2)}
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaPython className="text-7xl text-yellow-400"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(5.5)}
+            variants={iconVariants(2.5)}
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiDjango className="text-7xl text-green-700"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(6)}
+            variants={iconVariants(3)}
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiJavascript className="text-7xl text-yellow-300"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(6.5)}
+            variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiCplusplus className="text-7xl text-sky-700"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(7)}
+            variants={iconVariants(4)}
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiTailwindCssFill className="text-7xl text-cyan-400"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(7.5)}
+            variants={iconVariants(4.5)}
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaDocker className="text-7xl text-blue-700"/>
+                <FaDocker className="text-7xl text-sky-600"/>
             </motion.div>
             <motion.div
-            variants={iconVariants(8)}
+            variants={iconVariants(1.5)}
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
                 <GrMysql className="text-7xl text-sky-800"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaGitAlt className="text-7xl text-red-600"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(4)}
+            initial="initial"
+            animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">
+                <MdHttp className="text-7xl text-green-600"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(3)}
+            initial="initial"
+            animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiGithub className="text-7xl text-white"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(3.5)}
+            initial="initial"
+            animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">
+                <VscVscode className="text-7xl text-sky-600"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiPostman className="text-7xl text-orange-600"/>
             </motion.div>
         </motion.div>
     </div>
