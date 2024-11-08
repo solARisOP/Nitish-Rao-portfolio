@@ -52,18 +52,18 @@ export const CODING = [
 
 export const EDUCATION = [
     {
-        year: "2016 - 2018",
-        degree: "Higher secondary",
-        field: "Science",
-        institute: 'Sri Chaitanya, vijayawada',
-        score: "89.9%"
-    },
-    {
         year: "2019 - 2023",
         degree: "Bachelor of technology",
         field: "Computer Science Engineering",
         institute: 'Siliguri Institute of technology (SIT), siliguri',
         score: "8.65 CGPA"
+    },
+    {
+        year: "2016 - 2018",
+        degree: "Higher secondary",
+        field: "Science",
+        institute: 'Sri Chaitanya, vijayawada',
+        score: "89.9%"
     },
 ]
 
