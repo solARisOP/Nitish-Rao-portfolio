@@ -12,17 +12,17 @@ function CodingProfile() {
         </motion.h2>
         <div>
             {CODING.map((profile, idx) => 
-                <div key={idx} className="mb-8 flex flex-wrap lg:justify-center cursor-pointer rounded-xl">
+                <div key={idx} className="mb-8 flex flex-wrap lg:justify-center">
 
                     <motion.div whileInView={{opacity: 1, x:0}}
                     initial={{opacity: 0, x: -100}}
-                    transition={{duration: 1}} className="w-full lg:w-1/4 mb-10">
-                        <profile.logo className={`text-5xl ${profile.color}`} />
+                    transition={{duration: 1}} className="w-full lg:w-1/3 mb-10">
+                        <profile.logo className={`text-5xl ${profile.color} mx-auto`} />
                     </motion.div>
 
                     <motion.div whileInView={{opacity: 1, x:0}}
                     initial={{opacity: 0, x: 100}}
-                    transition={{duration: 1}} className="w-full max-w-xl lg:w-3/4">
+                    transition={{duration: 1}} className="w-full max-w-xl lg:w-2/3">
 
                         <h6 className="mb-2 font-semibold">
                             {profile.name}

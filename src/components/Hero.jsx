@@ -26,10 +26,8 @@ function Hero() {
                     <motion.p variants={container(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
                 </div>
             </div>
-            <div className='w-full lg:w-1/2 lg:p-8'>
-                <div className='flex justify-center'>
-                    <motion.img initial={{x: 100, opacity: 0}} animate={{ x:0, opacity: 1}} transition={{duration: 1, delay: 1.2}} src={profilePic} className='rounded-[50px]' />
-                </div>
+            <div className='w-full lg:w-1/2 flex justify-end'>
+                <motion.img initial={{x: 100, opacity: 0}} animate={{ x:0, opacity: 1}} transition={{duration: 1, delay: 1.2}} src={profilePic} className='rounded-[50px]' />
             </div>
         </div>
     </div>

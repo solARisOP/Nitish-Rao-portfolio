@@ -55,9 +55,11 @@ function Project() {
                 about <span className='text-neutral-500 '>{data.title}</span>
             </motion.h2>
 
-            <p className='my-10 whitespace-pre-line leading-8'>
+            <motion.p initial={{opacity: 0, x: 100 }}
+            animate={{opacity: 1, x: 0}}
+            transition={{duration: 1}} className='my-10 whitespace-pre-line leading-8'>
                 {data.description}
-            </p>
+            </motion.p>
         </>
     )
 }
