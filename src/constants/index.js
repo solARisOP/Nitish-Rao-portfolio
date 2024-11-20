@@ -29,7 +29,7 @@ export const EXPERIENCES = [
 export const CODING = [
     {
         name : 'Leetcode',
-        description : 'Solved 400+ problems on DSA',
+        description : 'Solved 500+ problems on DSA',
         link : "https://leetcode.com/u/solARis_OP/",
         logo : SiLeetcode,
         color : 'text-yellow-500'
