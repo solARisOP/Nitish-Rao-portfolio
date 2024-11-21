@@ -14,7 +14,7 @@ function Home() {
         <Navbar />
         <Hero />
         <Tech />
-        <Experience />
+        {/* <Experience /> */}
         <CodingProfile />
         <Projects />
         <Education />
